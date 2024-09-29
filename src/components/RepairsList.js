@@ -34,8 +34,9 @@ const RepairsList = () => {
                 Nueva Reparación
             </button>
 
-            <div className="shadow-md rounded-lg overflow-hidden">
-                <table className="min-w-full bg-white">
+            {/* Ajustamos el contenedor de la tabla para ser responsive */}
+            <div className="overflow-x-auto">
+                <table className="min-w-full bg-white border-collapse">
                     <thead className="bg-gray-800 text-white">
                         <tr>
                             <th className="w-1/4 py-3 px-4 text-left">Modelo</th>
